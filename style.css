@@ -2,13 +2,15 @@ html, body {
       margin: 0;
       padding: 0;
       width: 100%;
+      font-family: 'Open Sans', sans-serif;
 }
 
 * {
     box-sizing: border-box;
 }
 
-button{
+header a{
+    margin-top: 30px;
     padding: 24px 96px;
     font-size: 1em;
     text-decoration: none;
@@ -160,7 +162,7 @@ nav ul li a {
 }
 
 .row .col3{
-    
+
 }
 
 .container{
@@ -249,7 +251,7 @@ video{
 
 
 @media(max-width: 1440px) {
-    
+
     p {
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
@@ -257,91 +259,91 @@ video{
       line-height: 27px;
       color: #4A4A4A;
 }
-    
-    
+
+
     .section_img_full{
     display: block;
     width: 90%;
     height: auto;
 }
-    
+
     .section{
     height: 750px;
     overflow: hidden;
     padding: 48px 0px;
 }
-    
+
     .section_3{
     height: auto;
     overflow: hidden;
     padding: 48px;
     }
-    
+
     .section_video{
     height: auto;
     overflow: hidden;
     padding: 48px;
 }
-    
+
 }
 
 
 @media(max-width: 1024px) {
-    
-    
-    
+
+
+
     .section_img_full{
     display: block;
     width: 95%;
     height: auto;
 }
-    
+
     .section{
     height: 100%;
     overflow: hidden;
     padding: 24px 0px;
 }
-    
+
     .section_3{
     height: auto;
     overflow: hidden;
     padding: 24px 0px;
     }
-    
+
     .section_video{
     height: auto;
     overflow: hidden;
     padding: 24px;
 }
-    
+
 }
 
 
 @media(max-width: 768px) {
-    
+
     .header{
         padding: 0px 16px;
     }
-    
+
     .logo {
     position: fixed;
     top: 0;
     margin-top: 16px;
 }
-    
+
    .logo_full{
     display: none;
 }
 
 .logo_mobile{
     display: block;
-}     
+}
 
 nav{
     position: fixed;
     z-index: 1;
 }
-    
+
 nav ul {
     max-height: 0px;
     background: #000;
@@ -368,7 +370,7 @@ nav ul li {
 
     .col3{
         width: 100%;
-        padding: 24px 40px; 
+        padding: 24px 40px;
     }
 
     .col2{
@@ -377,24 +379,24 @@ nav ul li {
         width: 100%;
         height: 100%;
     }
-    
+
     .col2_mobile{
         display: block;
     }
-    
+
     .col2_full{
         display: none;
     }
-    
+
     .col2_right{
         float: left;
     }
-    
+
     .row .col2{
     height: 50%;
 }
-    
-    
+
+
     .section_img_full{
     width: 75%;
     display: none;
@@ -403,49 +405,49 @@ nav ul li {
         display: block;
         width: 100%;
     }
-    
- 
+
+
 col2_center{
     text-align: center;
 }
-    
-    
+
+
     .section{
     height: auto;
     overflow: hidden;
     padding: 32px;
 }
-    
+
     .section_3{
     height: auto;
     overflow: hidden;
     padding: 24px 56px;
     }
-    
+
     .section_video{
     height: auto;
     overflow: hidden;
     padding: 24px 40px;
 }
-    
+
     video{
     width:100%;
     height: auto;
 }
 
-    
+
 }
 
 
 
 @media(max-width: 425px) {
-    
+
     .header{
         padding: 0px 16px;
     }
-    
-    button{
-      padding: 20px 40px;  
+
+    header a{
+      padding: 20px 40px;
     }
 
 .logo {
@@ -453,20 +455,20 @@ col2_center{
     top: 0;
     margin-top: 16px;
 }
-    
+
    .logo_full{
     display: none;
 }
 
 .logo_mobile{
     display: block;
-}     
+}
 
 nav{
     position: fixed;
     z-index: 1;
 }
-    
+
 nav ul {
     max-height: 0px;
     background: #000;
@@ -493,7 +495,7 @@ nav ul li {
 
     .col3{
         width: 100%;
-        padding: 24px 16px; 
+        padding: 24px 16px;
     }
 
     .col2{
@@ -502,24 +504,24 @@ nav ul li {
         width: 100%;
         height: 100%;
     }
-    
+
     .col2_mobile{
         display: block;
     }
-    
+
     .col2_full{
         display: none;
     }
-    
+
     .col2_right{
         float: left;
     }
-    
+
     .row .col2{
     height: 50%;
 }
-    
-    
+
+
     .section_img_full{
     width: 75%;
     display: none;
@@ -528,31 +530,31 @@ nav ul li {
         display: block;
         width: 100%;
     }
-    
- 
+
+
 col2_center{
     text-align: center;
 }
-    
-    
+
+
     .section{
     height: auto;
     overflow: hidden;
     padding: 24px 16px;
 }
-    
+
     .section_3{
     height: auto;
     overflow: hidden;
     padding: 24px 24px;
     }
-    
+
     .section_video{
     height: auto;
     overflow: hidden;
     padding: 24px 16px;
 }
-    
+
     video{
     width:100%;
     height: auto;
@@ -560,5 +562,3 @@ col2_center{
 
 
 }
-
-
