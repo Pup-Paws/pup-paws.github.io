@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pup Paws</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600,900|Open+Sans" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    <div class="logo">
+                        <img class="logo_full" src="PP_assets/Puppaws@2x.png" width="auto" height="32px">
+
+                        <img class="logo_mobile" src="PP_assets/Puppaws_c@2x.png" width="auto" height="32px">
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><button class="nav_btn"><a href="#">Download the app</a></button></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="header">
+                <h1> Dogs are not pets, they're family</h1>
+                <p style="color: white">a (reminder) app that keeps  track of everything your pet needs and wants.</p>
+                <button>Download Now</button>
+                </div>
+
+            </header>
+            <div class="section_3">
+                <div class="heading" id="center">
+                    <h1 id="green_header">Simple process to a happy dog</h1>
+                </div>
+
+                <!-- 3 columns -->
+                    <div class="row">
+                    <div class="col3" id="center">
+                        <img class="icon_img" src="PP_assets/icon_1@2x.png" alt="icon">
+                        <h3 id="green_header" >Free of Complications</h3>
+                        <p>Capture the best moments with your beloved, furry friend and look back on your collection.</p>
+                    </div>
+                    <div class="col3" id="center">
+                        <img class="icon_img" src="PP_assets/icon_2@2x.png" alt="icon">
+                        <h3 id="green_header">Say Cheese!</h3>
+                        <p>Upload your pictures with your entries to visually track the best of times, and to keep tabs on potential issues or concerns.</p>
+                    </div>
+                    <div class="col3" id="center">
+                        <img class="icon_img" src="PP_assets/icon_1@2x.png"  alt="icon">
+                        <h3 id="green_header">The Puppaws Team</h3>
+                        <p>Pet Lovers through and through, we’ve banded together to create a service that highlights your pet’s moments, good or bad.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!----section1--->
+            <div class="section">
+                <div class="row">
+                    <div class="col2" id="center" >
+                        <div class="container">
+                            <img class="section_img_full" src="PP_assets/Paw_img_1@2x.png" alt="icon" max-width="600px" height="auto">
+                            <img class="section_img_mobile" src="PP_assets/section_1@2x.png">
+                        </div>
+                    </div>
+                    <div class="col2" id="info">
+                        <div class="container">
+                            <h1 id="green_header">Puppaws a day, <br> Keeps the flaws away</h1>
+                            <p>Set reminders and tasks of your pet's food and medication intake, physical activities, training and chores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----section2--->
+            <div class="section">
+                <div class="row">
+                    <div class="col2 col2_left" id="center">
+                        <div class="container">
+                            <img class="section_img_full" src="PP_assets/Paw_img_2@2x.png" alt="icon" max-width="600px" height="auto">
+                            <img class="section_img_mobile" src="PP_assets/section_2@2x.png">
+                        </div>
+                    </div>
+                    <div class="col2 col2_right" id="info">
+                        <div class="container">
+                            <h1 id="green_header">Stronger bond between you and your pet</h1>
+                            <p>Pet owner can have a deeper connection with pet by tracking its mood and behaviour patterns.
+                            - Get to know your pet in a personal level by tracking its mood and behaviour patterns.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----Video section--->
+            <div class="bg">
+                <div class="section_video" id="center" style="color: white">
+                    <h1>Experience Puppaws</h1>
+                    <video style="margin-top: 24px" controls>
+                        <source src="PP_assets/Prototype_Comp.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            <!----Team section--->
+                <div class="section">
+                    <div class="row">
+                        <div class="col2 col2_center" style="color: white">
+                            <div class="container">
+                                <h1>Trusted with a team of dog lovers</h1>
+                                <p style="color: white">Puppaws is carefully monitored and built with a team of dog enthusiasts who deeply care about our pet's
+                                needs and wants. We believe pets are our apart of the family and we need to take this into consideration.</p>
+                            </div>
+                        </div>
+                        <div class="col2" id="center">
+                            <div class="container">
+                                <img class="section_img_full" src="PP_assets/Team_img@2x.png" alt="icon" max-width="500px" height="auto">
+                                <img class="section_img_mobile" id="center" src="PP_assets/Team_img@2x.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+
+            // Menu-toggle button
+
+            $(document).ready(function() {
+                $(".menu-icon").on("click", function() {
+                    $("nav ul").toggleClass("showing");
+                });
+            });
+
+            // Scrolling Effect
+
+            /*$(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                }
+
+                else {
+                    $('nav').removeClass('black');
+                }
+            })*/
+
+
+        </script>
+    </body>
+</html>
