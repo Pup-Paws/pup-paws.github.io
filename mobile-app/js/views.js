@@ -1,7 +1,7 @@
 let welcomescreen1Page = `
   <div class="content-wrapper setup">
     <header>
-      <img src="images/logo_500px.png" alt="dog icon" class="dog-logo">
+      <img src="./images/logo_500px.png" alt="dog icon" class="dog-logo">
     </header>
 
     <div class="setup-content card">
